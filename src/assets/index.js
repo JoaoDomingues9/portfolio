@@ -17,22 +17,10 @@ import reactjs from "./tech/reactjs.png";
 import mysql from "./tech/mysql.png";
 import linux from "./tech/linux.png";
 import tailwind from "./tech/tailwind.png";
-import aws from "./tech/aws.png";
 
-import samaritans from "./samaritans.png";
-import oist from "./oist.png";
 
-import nextinnovation from "./company/nextinnovation.jpeg";
-import cognizant from "./company/cognizant.png";
-import internshala from "./company/internshala.webp";
 
-import linkedin from "./company/linkedin.png";
-import hackerrank from "./company/hackerrank.png";
-import karate from "./karate.jpg";
 
-import portfolio from "./3dportfolio.png";
-import pglife from "./pglife.png";
-import sortingvisualiser from "./sortingvisualiser.png";
 
 import cdlpc from "./cdlpc.png";
 import ubi from "./ubi.jpg";
@@ -76,18 +64,6 @@ export {
   linux,
   tailwind,
   mysql,
-  aws,
-  samaritans,
-  oist,
-  nextinnovation,
-  cognizant,
-  internshala,
-  linkedin,
-  hackerrank,
-  karate,
-  portfolio,
-  pglife,
-  sortingvisualiser,
   cdlpc,
   ubi,
   star,
