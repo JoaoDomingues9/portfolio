@@ -18,7 +18,11 @@ import {
   cdlpc,
   ubi,
   star,
+  hultiglogo,
   certiprof,
+  udemy,
+  google,
+  paloalto,
   cisco,
   typeScript,
   nodejs,
@@ -91,7 +95,17 @@ const services = [
 
 const education = [
   {
-    title: "Bachelor in Computer Science and Engineering",
+    title: "Master in Computer Science and Engineering",
+    company_name: "University of Beira Interior, Portugal",
+    icon: ubi,
+    iconBg: "#fff",
+    date: "2024-Current",
+    points: [
+      "Courses undertaken: Software Quality, Communication Protocols, Machine Learning, Interactive Computing and Visualization, Database Management Systems, Cloud Technologies and Software, Network, Server and Application Penetration Testing, Security of Cloud Solutions, Big Data, Knowledge Discovery and Data Mining, Object Recognition and Motion Analysis, IoT",
+    ],
+  },
+  {
+    title: "Degree in Computer Science and Engineering",
     company_name: "University of Beira Interior, Portugal",
     icon: ubi,
     iconBg: "#fff",
@@ -101,7 +115,7 @@ const education = [
     ],
   },
   {
-    title: "Higher Secondary",
+    title: "High School",
     company_name: "College Dr. Luís Pereira da Costa, Portugal",
     icon: cdlpc,
     iconBg: "#fff",
@@ -189,11 +203,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Investigator",
+    company_name: "University of Beira Interior, HULTIG",
+    icon: hultiglogo,
+    iconBg: "#fff",
+    date: "July 2024 - present",
+    points: [
+      "Software developer with experience in creating efficient and scalable applications, using various programming languages and frameworks. I work on all stages of the development cycle, from requirements analysis to final delivery, with a focus on quality and performance. I also have experience with machine learning",
+    ],
+  },
+  {
     title: "Frontend Developer",
     company_name: "Star Junior Enterprise",
     icon: star,
     iconBg: "#fff",
-    date: "March 2024 - present",
+    date: "March 2024 - Sept 2024",
     points: [
       "Front-end developer proficient in React, skilled in crafting responsive and dynamic user interfaces using HTML, CSS, and JavaScript and Experience in building reusable components",
     ],
@@ -221,6 +245,40 @@ const extracurricular = [
     ],
   },
 
+  {
+    title: "Complete Web Developer",
+    type: "Certification",
+    icon: udemy,
+    iconBg: "#A435F0",
+    date: "March 2025",
+    points: [
+      "Credencial: https://www.udemy.com/certificate/UC-a4d45850-f332-43c4-afcb-d820a2163bca/",
+    ],
+
+  },
+  {
+    title: "Google Cloud Cybersecurity Certificate",
+    type: "Certification",
+    icon: google,
+    iconBg: "#4285F4",
+    date: "April 2025",
+    points: [
+      "Credencial: https://www.credly.com/badges/b1981a9c-9eee-48e1-aeb0-b44fff1fc726/linked_in_profile",
+    ],
+
+  },
+  {
+    title: "Cloud Security Fundamentals",
+    type: "Certification",
+    icon: paloalto,
+    iconBg: "#FF6B00",
+    date: "May 2025",
+    points: [
+      "Credencial ID: n9lXxh4Lri",
+    ],
+
+  },
+
 ];
 
 const projects = [
@@ -246,6 +304,7 @@ const projects = [
     source_code_link: "https://github.com/JoaoDomingues9/wonderplaces",
     live_project_link: "https://github.com/JoaoDomingues9/wonderplaces",
     isSmartphoneImage: true,
+    isPrivate: true,
   },
   {
     name: "Solar System",
@@ -314,11 +373,11 @@ const projects = [
         name: "c",
         color: "blue-text-gradient",
       },
-     
+
     ],
     image: shelll,
-    source_code_link:"https://github.com/JoaoDomingues9/SO-Shell",
-    live_project_link:"https://github.com/JoaoDomingues9/SO-Shell",
+    source_code_link: "https://github.com/JoaoDomingues9/SO-Shell",
+    live_project_link: "https://github.com/JoaoDomingues9/SO-Shell",
   },
   {
     name: "Replat-it",
@@ -343,6 +402,7 @@ const projects = [
     source_code_link: "https://github.com/pedro742k2/RePlate-It-Flutter",
     live_project_link: "https://github.com/pedro742k2/RePlate-It-Flutter",
     isSmartphoneImage: true,
+    isPrivate: true,
   },
   {
     name: "School Management System",
@@ -366,6 +426,7 @@ const projects = [
     image: sd,
     source_code_link: "https://github.com/JoaoDomingues9/projeto_sd",
     live_project_link: "https://github.com/JoaoDomingues9/projeto_sd",
+    isPrivate: true,
   },
 ];
 

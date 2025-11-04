@@ -55,7 +55,7 @@ const About = () => {
       </motion.p>
 
       <button className="mt-10 px-6 py-3 text-white bg-gradient-to-r from-blue-500 to-purple-500 rounded-md shadow-md hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-opacity-50"
-        onClick={() => window.open("https://drive.google.com/file/d/1mkY6uFh5s6RTDHfMVvydnofNXjMX7IIB/view", "_blank")}
+        onClick={() => window.open("https://drive.google.com/file/d/190ggwl7j1uitBoCFJlfh-WBgHqs5Vw3h/view", "_blank")}
       >
         <span className="font-semibold">Resume</span>
       </button>

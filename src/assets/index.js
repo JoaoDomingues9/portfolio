@@ -24,9 +24,13 @@ import tailwind from "./tech/tailwind.png";
 
 import cdlpc from "./cdlpc.png";
 import ubi from "./ubi.jpg";
+import hultiglogo from "./hultiglogo.png";
 
 import star from "./star.png";
 import certiprof from "./certiprof.png";
+import udemy from "./udemy.png";
+import google from "./google.png";
+import paloalto from "./paloalto.png";
 import cisco from "./cisco.png";
 import typeScript from "./tech/typescript.png";
 import nodejs from "./tech/nodejs.png";
@@ -66,8 +70,12 @@ export {
   mysql,
   cdlpc,
   ubi,
+  hultiglogo,
   star,
   certiprof,
+  udemy,
+  google,
+  paloalto,
   cisco,
   typeScript,
   nodejs,
